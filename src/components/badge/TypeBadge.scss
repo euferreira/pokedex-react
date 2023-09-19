@@ -1,0 +1,19 @@
+.data__pokemon__type {
+  display: inline-flex;
+  justify-content: left;
+  align-items: center;
+  width: 25vh;
+
+
+  &__name {
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    margin: 0.2rem;
+    text-transform: capitalize;
+  }
+
+  &__img {
+    margin-right: 0.5rem;
+  }
+}
